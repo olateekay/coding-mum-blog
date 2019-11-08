@@ -1,15 +1,15 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Card from '../components/Card'
 
 
 const IndexPage = () => (
   <div>
     <div className="Paapi">
       <div className="PaapiGroup">
-        <h1>Hi people</h1>
+        {/* <h1>Hi people</h1>
         <p>I am Ogunlade Olatokunbo</p>
-        <p>I am a Coding Mum.</p>
-        <Link to="/page-2/">Go to page 2</Link>
+        <p>I am a Coding Mum.</p> */}
         <svg width="100%" height="172" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path fill="white">
         <animate repeatCount="indefinite"
@@ -21,6 +21,9 @@ const IndexPage = () => (
         </path>
         </svg>
       </div>
+    </div>
+    <div className="Cards">
+      <Card />
     </div>
   </div>
 )
