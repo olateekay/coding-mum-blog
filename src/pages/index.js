@@ -8,7 +8,7 @@ const IndexPage = () => (
       <div className="PaapiGroup">
       <h1>Hi people</h1>
     <p>I am Ogunlade Olatokunbo</p>
-    <p>and i am a Coding Mum.</p>
+    <p>I am a Coding Mum.</p>
     <Link to="/page-2/">Go to page 2</Link>
       </div>
     </div>

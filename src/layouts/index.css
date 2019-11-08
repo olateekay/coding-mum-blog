@@ -35,6 +35,12 @@ a {
   color:rgb(171, 89, 196);
   font-size:60px;
   line-height:1.2;
+  opacity: 0;
+  animation: PaapiAnimation;
+  animation-duration: 3s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .Paapi p {
@@ -42,5 +48,33 @@ a {
   color:rgba(232, 201, 236, 0.8);
   font-size:30px;
   line-height:1.5;
+  opacity: 0;
+  animation: PaapiAnimation;
+  animation-duration: 3s;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
   
+}
+@media (max-width:640px){
+  .PaapiGroup {
+    padding:100px 20px;
+  }
+  .Paapi h1 {
+    font-size:40px;
+  }
+  .Paapi p {
+    font-size:24px;
+  }
+}
+
+@keyframes PaapiAnimation {
+  0% {
+      opacity: 0;
+      transform: translateY(20px)
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0px)
+  }
 }

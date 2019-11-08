@@ -3,5 +3,33 @@
     width:100%;
     padding: 50px 0;
     z-index:100;
+    /* background: black; */
 
 }
+
+.HeaderGroup {
+   max-width: 800px;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(5,auto); 
+   align-items: center;
+   justify-items: center;
+}
+
+.Header a {
+    color: white;
+    font-weight:700;
+}
+
+@media (max-width:640px){
+    .Header {
+        padding:15px o;
+    }
+    .HeaderGroup {
+        grid-template-columns: repeat(4,auto);
+    }
+    .Header a:nth-child(4) {
+        display:none;
+    }
+}
+
