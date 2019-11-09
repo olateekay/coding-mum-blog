@@ -10,10 +10,15 @@ class Header extends React.Component {
       hasScrolled: false
     }
   }
-
+// As soon as the component is loaded, we try to listen to the built-in scroll events passed from our window.
+// This will in turn trigger the handleScroll function. 
   componentDidMount(){
     window.addEventListener('scroll',this.handleScroll)
   }
+
+  // The handleScroll function will get the Y position of the scrolling.
+  //  When the scrolling hits more than 50px, it’ll set a new state for our hasScrolled boolean to true. Otherwise, it’ll set it back to false.
+
 
   handleScroll = (event) => {
     const scrollTop = window.pageYOffset
