@@ -23,9 +23,21 @@ const IndexPage = () => (
       </div>
     </div>
     <div className="Cards">
+      <h2>Read how i started and how the journey has been</h2>
+      <div className="CardGroup">
       <Card title="hi"
       text="this is how the story goes"
       image="https://p90.f3.n0.cdn.getcloudapp.com/items/eDuLeBGY/wallpaper4.jpg?v=576eaabc2d1c0df2d4cdc7127a9e7626"/>
+      <Card title="hi"
+      text="this is how the story goes"
+      image="https://p90.f3.n0.cdn.getcloudapp.com/items/eDuLeBGY/wallpaper4.jpg?v=576eaabc2d1c0df2d4cdc7127a9e7626"/>
+      <Card title="hi"
+      text="this is how the story goes"
+      image="https://p90.f3.n0.cdn.getcloudapp.com/items/eDuLeBGY/wallpaper4.jpg?v=576eaabc2d1c0df2d4cdc7127a9e7626"/>
+      <Card title="hi"
+      text="this is how the story goes"
+      image="https://p90.f3.n0.cdn.getcloudapp.com/items/eDuLeBGY/wallpaper4.jpg?v=576eaabc2d1c0df2d4cdc7127a9e7626"/>
+      </div>
     </div>
   </div>
 )
