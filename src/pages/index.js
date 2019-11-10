@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Card from '../components/Card'
+import Section from '../components/Section'
 
 
 const IndexPage = () => (
@@ -39,6 +40,17 @@ const IndexPage = () => (
       image="https://p90.f3.n0.cdn.getcloudapp.com/items/eDuLeBGY/wallpaper4.jpg?v=576eaabc2d1c0df2d4cdc7127a9e7626"/>
       </div>
     </div>
+  <Section 
+     
+      title="About me"
+      text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+      image="https://p90.f3.n0.cdn.getcloudapp.com/items/p9uzByeZ/color+inspiration.jpeg?v=7671e13ac95ddc91cbbc51cf7500c942"
+    />
+  
+     
   </div>
 )
 
