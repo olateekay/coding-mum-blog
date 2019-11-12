@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Wave from './Wave';
 
 
 const SectionGroup = styled.div`
@@ -16,6 +17,17 @@ const SectionGroup = styled.div`
         height: 820px;
     }
 `
+
+const SectionLogo = styled.img`
+   width: 200px;
+   margin: 0 auto;
+   align-self: end;
+
+
+
+`
+
+
 const SectionTitleGroup = styled.div`
    
     margin: 0 40px;
@@ -29,7 +41,7 @@ const SectionTitleGroup = styled.div`
     }
 `
 const SectionTitle = styled.h3`
-    color: purple;
+    color: #26a69a;
     font-size: 40px;
     margin: 0;
     line-height: 1.2;
@@ -39,7 +51,7 @@ const SectionTitle = styled.h3`
     }
 `
 const SectionText = styled.p`
-  color: purple;
+  color: black;
 `
 
 
@@ -47,6 +59,7 @@ const Section = props => {
 
     return (
       <SectionGroup image={props.image}>
+         <SectionLogo src={props.logo} />
           <SectionTitleGroup>
               <SectionTitle>{props.title}</SectionTitle>
               <SectionText>{props.text}</SectionText>

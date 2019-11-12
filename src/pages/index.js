@@ -38,10 +38,16 @@ const IndexPage = () => (
       <Card title="hi"
       text="this is how the story goes"
       image="https://p90.f3.n0.cdn.getcloudapp.com/items/eDuLeBGY/wallpaper4.jpg?v=576eaabc2d1c0df2d4cdc7127a9e7626"/>
+      <Card title="hi"
+      text="this is how the story goes"
+      image="https://p90.f3.n0.cdn.getcloudapp.com/items/eDuLeBGY/wallpaper4.jpg?v=576eaabc2d1c0df2d4cdc7127a9e7626"/>
+      <Card title="hi"
+      text="this is how the story goes"
+      image="https://p90.f3.n0.cdn.getcloudapp.com/items/eDuLeBGY/wallpaper4.jpg?v=576eaabc2d1c0df2d4cdc7127a9e7626"/>
       </div>
     </div>
   <Section 
-     
+      logo="https://p90.f3.n0.cdn.getcloudapp.com/items/rRunmy1v/tcmlo.png?v=63ddbfc440a54c9717b20db7a0370b3e"
       title="About me"
       text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
             et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea

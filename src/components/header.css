@@ -11,7 +11,7 @@
    max-width: 800px;
    margin: 0 auto;
    display: grid;
-   grid-template-columns: repeat(5,auto); 
+   grid-template-columns: repeat(7,auto); 
    align-items: center;
    justify-items: center;
 }
@@ -38,7 +38,7 @@
 }
 
 .HeaderScrolled {
-    background: rgba(0,0,0, 0.8);
+    background: #26a69a;
     padding: 15px 0;
     backdrop-filter: blur(20px);
 }
